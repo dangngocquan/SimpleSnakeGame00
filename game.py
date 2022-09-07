@@ -14,14 +14,14 @@ pygame.init()
 
 length = 1000
 width = 600
-snake_block_size = 20
-speed = 20
+snake_block_size = 40
+speed = 4
 snake_block_list = []
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
-snake_body = pygame.image.load("assets\snake_body.png")
+snake_body = pygame.image.load(".\\assets\\snake_body.png")
 snake_body = pygame.transform.scale(snake_body, (snake_block_size, snake_block_size))
 
 dis = pygame.display.set_mode((length, width))
